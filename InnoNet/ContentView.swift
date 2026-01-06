@@ -21,7 +21,6 @@ struct ContentView: View {
                             .foregroundColor(.red)
                             .fixedSize(horizontal: false, vertical: true)
                     }
-                    
                     Divider().background(Color.red.opacity(0.3))
                     
                     VStack(alignment: .leading, spacing: 6) {
